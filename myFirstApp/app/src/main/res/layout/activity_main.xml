@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/burger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/burger"
+        >
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo x1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/burger"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_toRightOf="@id/burger"
+        android:text="Burger"
+        android:layout_marginTop="40dp"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10$"
+        android:layout_toRightOf="@id/burger"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+
+        >
+    </TextView>
+
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+
+            <Button
+                android:text="Push me"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </Button>
+        </LinearLayout>
+
+    </ScrollView>
+<!--    <ImageView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:src="@drawable/fd5dd4e04b5a65807bac5c49ddd4c241"></ImageView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="hello"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        >-->
+<!--    </TextView>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:text="hello"-->
+<!--        >-->
+<!--    </TextView>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/myButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="Button"></Button>-->
+
+<!--    <TextView-->
+<!--        android:layout_alignTop="@id/myButton"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="-30dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Hi"-->
+<!--        >-->
+<!--    </TextView>-->
+
+<!--    <TextView-->
+<!--        android:layout_alignBottom="@id/myButton"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="-30dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Java"-->
+<!--        >-->
+<!--    </TextView>-->
+
+<!--    1111111111111111-->
+
+    <!--    <Button-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button1111111111"></Button>-->
+
+<!--    &lt;!&ndash; для текста pt единица размера , а для размера dp    &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button2"-->
+<!--        >-->
+<!--    </Button>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Button3"-->
+<!--            >-->
+<!--        </Button>-->
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Button4"-->
+<!--            >-->
+<!--        </Button>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        -->
+<!--        ></LinearLayout>-->
+</RelativeLayout>
